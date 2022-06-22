@@ -1,0 +1,45 @@
+* {margin:0; padding:0;}
+ul li {list-style-type:none;}
+img {border:none;}
+body, header, nav, section, article, aside, div, main, footer {margin:0; padding:0;}
+body, header, section, footer, nav, article, main {display:block; }
+a:link, a:visited {text-decoration:none; color:#333; }
+a:hover, a:focus {color:#fff;}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #18a780;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#29b890;
+}
+/* width */
+::-ms-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-ms-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-ms-scrollbar-thumb {
+  background: #18a780;
+}
+
+/* Handle on hover */
+::-ms-scrollbar-thumb:hover {
+  background:#29b890;
+}
